@@ -25,6 +25,6 @@ void loop() {
 
   
   // print out the value you read:
-  Serial.println(distance_cm + 'cm');
+  Serial.println(distance_cm);
   delay(100);        // delay in between reads for stability
 }
